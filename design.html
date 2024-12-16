@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/portfoliofamicon.png">
+  <title>Nathan Bourget - Design</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: "Courier New", Courier, monospace; /* Default font for smaller body text */
+      font-size: .9vw;
+      display: flex; /* Flexbox for sidebar and content layout */
+    }
+
+    h1, h2, .navbar h1, .navbar .section-title {
+      font-family: Helvetica, Arial, sans-serif; /* Headers use Helvetica */
+      color: white;
+      margin: 0;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      width: 15%; /* Navigation bar width */
+      height: 100vh; /* Full viewport height */
+      background-color: #222; /* Sidebar background color */
+      padding: 2vw;
+      box-sizing: border-box;
+      position: fixed; /* Sticks to the left side */
+    }
+
+    .navbar h1 {
+      font-size: 1.2vw;
+      margin-bottom: .2vw; /* Reduced space below the title */
+    }
+
+    .navbar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: .9vw;
+      margin-bottom: .5vw;
+      padding: .5vw 0;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar .section-title {
+      margin-top: 2vw;
+      font-size: 1.1vw;
+      font-weight: bold;
+    }
+
+    /* Content Styles */
+    .content {
+      width: 80%; /* Remaining space for content */
+      margin-left: 17%; /* Adjust for navbar width */
+      padding: 6vw 2vw 2vw; /* Top padding avoids overlap with header */
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2vw;
+      box-sizing: border-box;
+    }
+
+    .content p {
+  grid-column: 1 / -1; /* Paragraph spans across all columns */
+  margin: 1vw 0; /* Optional: Add spacing around the paragraph */
+  line-height: 1.5; /* Optional: Adjust line spacing for readability */
+}
+
+.content div {
+  grid-column: 1 / -1; /* Entire div spans all columns */
+}
+
+
+    .content img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .content h1 {
+  grid-column: 1 / -1; /* Title spans across all columns */
+  margin: 2vw 0; /* Add vertical spacing around the title */
+  text-align: left; /* Optional: Align the title to the left */
+}
+  </style>
+</head>
+<body>
+  <aside class="navbar">
+    <a href="index.html"><h1>Nathan Bourget</h1></a>
+    <a href="silkscreen.html">Silkscreen</a>
+    <a href="leadership.html">Leadership</a>
+    <a href="design.html"><u>Design</u></a>
+    <a href="contact.html">Contact</a>
+    <a><h1>Design Work</h1></a>
+    <a href="#Chapel">Data Chapel</a>
+    <a href="#Kuru">Kuru Restaurant</a>
+    <a href="#MYE">Me and You and Everyone</a>
+    <a href="#Fitness">Fitness app</a>
+    <a href="#Everyman">Everyman</a>
+  </aside>
+
+  <main class="content">
+    <div>
+      <h1 id="Chapel">Data Chapel</h1>
+      <p>This is a sculpture I created out of spray lizard enclosure foam. It houses a Raspberry Pi with a touchscreen running a script I wrote in python. The script allows users to draw on the touchscreen in an environment similar to the signature panels at a grocery store. It is implied on the screen that it wants you to confess something - anything. All confessions drawn on the screen are saved directly to the drive.</p>
+    </div>
+    <img src="images/design/design24.png" alt="oh no!">
+    <img src="images/design/design25.png" alt="oh no!">
+    <img src="images/design/design26.png" alt="oh no!">
+    <img src="images/design/design27.png" alt="oh no!">
+    <img src="images/design/design28.png" alt="oh no!">
+    <img src="images/design/design29.png" alt="oh no!">
+    <img src="images/design/design30.png" alt="oh no!">
+    <img src="images/design/design31.png" alt="oh no!">
+    <img src="images/design/design32.png" alt="oh no!">
+    <div>
+      <h1 id="Kuru">Kuru Restaurant</h1>
+      <p>Kuru is a fictional restaurant I created the brand identity for during a class project. The brand focuses on an almost theatrical performance of cannibalism. Foods are cannibal themed and the house staff is very cold, methodical and unfeeling. It is meant to be a fun critique on the cold dead unfeelingness of high society restruants that have truly already tasted everything else on the menu.</p>
+    </div>
+    <img src="images/design/design1.png" alt="oh no!">
+    <img src="images/design/design2.png" alt="oh no!">
+    <img src="images/design/design3.png" alt="oh no!">
+    <img src="images/design/design4.png" alt="oh no!">
+    <img src="images/design/design5.png" alt="oh no!">
+    <img src="images/design/design6.png" alt="oh no!">
+    <div>
+      <h1 id="MYE">Me and You and Everyone</h1>
+      <p>Me and You and Everyone is a poster I had created with a focus on the overwhelming feeling of a massive data survey. 100 people at MassArt were asked 21 questions and a few personal profile questions. The data poster shown provides all of these questions in a visual assault format. Images are appropriated from online sources, abrasive colors are stretched to their capacity and 3d tribal marks can be seen throughout.</p>
+    </div>
+    <img src="images/design/design7.png" alt="oh no!">
+    <img src="images/design/design8.png" alt="oh no!">
+    <img src="images/design/design9.png" alt="oh no!">
+    <img src="images/design/design10.png" alt="oh no!">
+    <img src="images/design/design11.png" alt="oh no!">
+    <img src="images/design/design12.png" alt="oh no!">
+    <div>
+      <h1 id="Fitness">Fitness Challenge</h1>
+      <p>Fitness Challenge is a feature I implemented to the Fitness/Fitness+ app from Apple as a hypothetical class assignment. I struggle a lot with getting active, drinking water or eating right and so I wanted to create a hypothetical app in Figma stressing the importance of holding yourself accountable. The app will allow you to randomly find a partner or matchmake with friends in order to motivate each other to complete an assignment based on self improvement. The challenge progress is inputted by the user, and when the challenge is complete a Mantra can be spoke into the app that can be replayed by other challenge goers for a competitive motivation.</p>
+    </div>
+    <img src="images/design/design13.png" alt="oh no!">
+    <img src="images/design/design14.png" alt="oh no!">
+    <img src="images/design/design15.png" alt="oh no!">
+    <img src="images/design/design16.png" alt="oh no!">
+    <img src="images/design/design17.png" alt="oh no!">
+    <div>
+      <h1 id="Everyman">Everyman</h1>
+      <p>This stuffed creature is something I created for the same Me and You and Everyone data survey assignment. It contains all of the most important data points from the survey on its skin. It was intended to be the amalgamation of all 100 people and what that would look like. I had created a couple scary videos associated with it as well as a scary webpage. When you get scared while watching these, the project is set up so you want to hold the Everyman and feel the 100 people holding you back.</p>
+    </div>
+    <img src="images/design/design18.png" alt="oh no!">
+    <img src="images/design/design19.png" alt="oh no!">
+    <img src="images/design/design20.png" alt="oh no!">
+    <img src="images/design/design21.png" alt="oh no!">
+    <img src="images/design/design22.png" alt="oh no!">
+    <img src="images/design/design23.png" alt="oh no!">
+  </main>
+</body>
+</html>

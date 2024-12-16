@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/portfoliofamicon.png">
+  <title>Nathan Bourget - Design</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: "Courier New", Courier, monospace; /* Default font for smaller body text */
+      font-size: .9vw;
+      display: flex; /* Flexbox for sidebar and content layout */
+    }
+
+    h1, h2, .navbar h1, .navbar .section-title {
+      font-family: Helvetica, Arial, sans-serif; /* Headers use Helvetica */
+      color: white;
+      margin: 0;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      width: 15%; /* Navigation bar width */
+      height: 100vh; /* Full viewport height */
+      background-color: #222; /* Sidebar background color */
+      padding: 2vw;
+      box-sizing: border-box;
+      position: fixed; /* Sticks to the left side */
+    }
+
+    .navbar h1 {
+      font-size: 1.2vw;
+      margin-bottom: .2vw; /* Reduced space below the title */
+    }
+
+    .navbar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: .9vw;
+      margin-bottom: .5vw;
+      padding: .5vw 0;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar .section-title {
+      margin-top: 2vw;
+      font-size: 1.1vw;
+      font-weight: bold;
+    }
+
+    /* Content Styles */
+    .content {
+      width: 80%; /* Remaining space for content */
+      margin-left: 17%; /* Adjust for navbar width */
+      padding: 6vw 2vw 2vw; /* Top padding avoids overlap with header */
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2vw;
+      box-sizing: border-box;
+    }
+
+    .content p {
+  grid-column: 1 / -1; /* Paragraph spans across all columns */
+  margin: 1vw 0; /* Optional: Add spacing around the paragraph */
+  line-height: 1.5; /* Optional: Adjust line spacing for readability */
+}
+
+.content div {
+  grid-column: 1 / -1; /* Entire div spans all columns */
+}
+
+
+    .content img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .content h1 {
+  grid-column: 1 / -1; /* Title spans across all columns */
+  margin: 2vw 0; /* Add vertical spacing around the title */
+  text-align: left; /* Optional: Align the title to the left */
+}
+  </style>
+</head>
+<body>
+  <aside class="navbar">
+    <a href="index.html"><h1>Nathan Bourget</h1></a>
+    <a href="silkscreen.html"><u>Silkscreen</u></a>
+    <a href="leadership.html">Leadership</a>
+    <a href="design.html">Design</a>
+    <a href="contact.html">Contact</a>
+    <a><h1>Silkscreen Prints</h1></a>
+    <a href="#camo">Camo Eyes</a>
+    <a href="#wain">Wain Stop</a>
+    <a href="#foiled">Foiled</a>
+    <a href="#tender">Tender</a>
+    <a href="#memoir">Memoir</a>
+    <a href="#smoking">Smoking</a>
+    <a href="#reversal">Reversal</a>
+    <a href="#lyme">Lyme Disease</a>
+    <a href="#angel">Angel</a>
+  </aside>
+
+  <main class="content">
+    <div>
+      <h1 id="camo">Camo Eyes</h1>
+      <p>This is a 4 color process print on a flashed white underbase that I had created for my storefront, Nervepilot.com, it is printed on a realtree blank with waterbased ink. Modeled by PleasureCoffin.</p>
+    </div>
+    <img src="images/silkscreen/ss0.png" alt="oh no!">
+    <img src="images/silkscreen/ss1.png" alt="oh no!">
+    <img src="images/silkscreen/ss2.png" alt="oh no!">
+    <div>
+      <h1 id="wain">Wain Stop</h1>
+      <p>Wain Stop is an internet art collective that I accidentally fell into while working at my job at Showcase Cinema two years ago. I had been a long time follower of their absurd animations and comics for years even before working with them, and an even bigger follower of the entire movement they were a part of. During one of my last days at Showcase, I really connected with one of the ushers working there. We got to talking and he told me he was one of the people in the art club and wrote their comic. I was blown away. He loved my screenprints and so we got to work together making some CMYK process shirts for Wain Stop. The first four photos are from when the shirts were on display at the Pop Gun gallery in Willamsburg, New York. The other more colorful mono-layer prints are for the halloween edition of the shirts.</p>
+    </div>
+    <img src="images/silkscreen/ss7.png" alt="oh no!">
+    <img src="images/silkscreen/ss8.png" alt="oh no!">
+    <img src="images/silkscreen/ss20.png" alt="oh no!">
+    <img src="images/silkscreen/ss21.png" alt="oh no!">
+    <img src="images/silkscreen/ss22.png" alt="oh no!">
+    <img src="images/silkscreen/ss23.png" alt="oh no!">
+    <img src="images/silkscreen/ss24.png" alt="oh no!">
+    <div>
+      <h1 id="foiled">Foiled</h1>
+      <p>This is one of my favorite screenprints I have created. It exemplified the true nature of the CMYK inks themselves through the foil of the balloons. There is an added graphic element that plays into the black layer with the face and the spikes.</p>
+    </div>
+    <img src="images/silkscreen/ss3.png" alt="oh no!">
+    <img src="images/silkscreen/ss4.png" alt="oh no!">
+    <div>
+      <h1 id="tender">Tender is the Flesh</h1>
+      <p>This is another screenprint on paper I had made to show off a graphic skill I was trying to crack for years. When I learned how to screenprint in 2020 I was very interested in using 3D modeling softwares to create graphics. Simply by looking at other screenprinted work, it was obvious if printing on white, the highlights of the object could be negated from a color fill and the shadows were another halftoned layer on the bottom of the object. This print exemplifies the hurdles I overcame simply by experimenting. Hopefully I will be able to do more 3D graphics in the future.</p>
+    </div>
+    <img src="images/silkscreen/ss5.png" alt="oh no!">
+    <img src="images/silkscreen/ss6.png" alt="oh no!">
+    <div>
+      <h1 id="memoir">Memoir</h1>
+      <p>This poster is very disturbing to some groups of people. It simplifes my struggle with sexuality, porn addiction and masturbation. It is a digital giclée print showing scenes from gay porn, chicken feet, and newspapers. On top of this is a mono layer screenprint with the words "No Omelette, Im Just Breaking Eggs" which is a spin on needing to break a couple eggs to make an omelette, in relation to fertilizing a woman's egg to make a baby. Instead, it's gay porn and masturbation, so there's no omelette to be made, just breaking eggs. The font I used in this poster was created painstakingly by using a syringe to spit out the same egg yolk over and over again to create different letterforms. The print itself was pulled with an ink made from laundry detergent and my own semen, and was reactive for a short period under a blacklight.</p>
+    </div>
+    <img src="images/silkscreen/ss9.png" alt="oh no!">
+    <img src="images/silkscreen/ss10.png" alt="oh no!">
+    <div>
+      <h1 id="smoking">Smoking</h1>
+      <p>I do not have a lot of photographs of my cleaner silkscrened t-shirts. This is probably the graphic that I have spent the most time revising to ensure that it looks really clean. There is no deeper meaning.</p>
+    </div>
+    <img src="images/silkscreen/ss11.png" alt="oh no!">
+    <img src="images/silkscreen/ss12.png" alt="oh no!">
+    <img src="images/silkscreen/ss13.png" alt="oh no!">
+    <div>
+      <h1 id="reversal">Reversal on Earth Day 2023</h1>
+      <p>Reversal on Earth Day is a book I created to be a companion of the Mattel Viewmaster. This was to prove I could make an ambitious and massive fully screenprinted book with a completely disjointed premise. After the book was completed, it illustrated my unique visual style more than anything I had created that year. It had also shown my drive to complete a large project during the span of a week and a half.</p>
+    </div>
+    <img src="images/silkscreen/ss25.png" alt="oh no!">
+    <img src="images/silkscreen/ss26.png" alt="oh no!">
+    <img src="images/silkscreen/ss27.png" alt="oh no!">
+    <img src="images/silkscreen/ss28.png" alt="oh no!">
+    <img src="images/silkscreen/ss29.png" alt="oh no!">
+    <div>
+      <h1 id="lyme">Lyme Disease Awareness</h1>
+      <p>This shirt was created as my first revised and clean screenprints. It is meant to replicate a public service announcement graphic shirt that was common back in the 1980s with many car safety and anti-drug vintage shirts. This one is for Lyme disease because I love how ticks look.</p>
+    </div>
+    <img src="images/silkscreen/ss14.png" alt="oh no!">
+    <img src="images/silkscreen/ss15.png" alt="oh no!">
+    <img src="images/silkscreen/ss16.png" alt="oh no!">
+    <div>
+      <h1 id="angel">Angel</h1>
+      <p>I wanted to include this screenprinted shirt in this portfolio as it is the first shirt I ever screenprinted and is one of the strongest contributing factors of my choice to persue higher education at MassArt. Two layers, white and blue.</p>
+    </div>
+    <img src="images/silkscreen/ss17.png" alt="oh no!">
+    <img src="images/silkscreen/ss18.png" alt="oh no!">
+  </main>
+</body>
+</html>
